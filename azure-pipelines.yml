@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: agent1
+  vmImage: centos 7.9.2009
 
 steps:
 - task: Maven@3
